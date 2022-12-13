@@ -11,6 +11,7 @@ body {
   background-position: center;
 }
 .container {
+  flex-direction: row;
   height: 100%;
   background: url("backgroundimage.png");
   background-repeat: no-repeat;
@@ -19,10 +20,9 @@ body {
   background-attachment: fixed;
 }
 .sub-container {
-  position: absolute;
   width: 98px;
   height: 60px;
-  left: 240px;
+  left: 109px;
   top: 59.57px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -31,11 +31,13 @@ body {
   font-size: 20px;
   line-height: 60px;
 }
+.bar {
+  left: 100px;
+}
 .con {
-  position: absolute;
   width: 315px;
   height: 225px;
-  left: 230px;
+  right: 500px;
   top: 175px;
 
   font-family: Arial, Helvetica, sans-serif;
@@ -46,36 +48,39 @@ body {
   color: #ffffff;
 }
 .des-Text {
-  position: absolute;
   width: 571.43px;
   height: 87.86px;
   left: 240px;
   top: 346px;
-
+  bottom: 359px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
-  line-height: 27px;
+  line-height: 27spx;
   letter-spacing: 1px;
 
   color: #ffffff;
 }
 .book-button {
   align-items: center;
+  font-size: 15px;
+  padding: 15px 15px;
   text-align: center;
   justify-content: center;
-  position: absolute;
-  width: 145px;
-  height: 32px;
+  width: 240px;
+  height: 62px;
   left: 240px;
-  top: 625.62px;
-
+  top: 425px;
+  color: lightgreen;
   background: #ffffff;
   border-radius: 10px;
 }
+.navbar {
+  flex-direction: row-reverse;
+  background-color: "red";
+}
 header {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
