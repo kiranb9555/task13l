@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head id="header" class="fixed-top">
+<head id="header" class="fixed-top">
     <title>background image responsive</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="Stylesheet" type="text/css" href="Tourism.css" />
-  </head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="Stylesheet" type="text/css" href="Tourism.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</head>
   <body>
-    <header>
-      <div class="container">
-        <div>
-          <h1 class="sub-container">Logo</h1>
+    <div class="container">
+      <div class="header">
+        <div class ="call">
+          <ul class="contact-info">
+            <i class="fa fa-phone" style="margin-right: 60px; color: white;"> +11 123 456 789</i>
+            <i class="fa fa-envelope-o" style="color: white;"> info@tourism.com</i>
+        </ul>
+        </div>
+        <div class ="call1">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Travel Packages</a></li>
-            <li><a href="#">Top Destination</a></li>
-            <li><a href="#">Travel Attraction</a></li>
-            <li><a href="#">Travel Agents</a></li>
-            <li><a href="#">Hotels</a></li>
+            <i class="fa fa-instagram icons"></i>
+            <i class="fa fa-facebook icons" aria-hidden="true"></i>
+            <i class="fa fa-twitter icons"aria-hidden="true"></i>
+            <i class="fa fa-globe icons"aria-hidden="true"></i>
+            <i class="fa fa-angle-down icons"></i>
           </ul>
         </div>
-        <div class="con">
-          <h1>BALI</h1>
+      </div>
+      <div class="light-line"></div>
+      <div class="navbar">
+        <h1 class="title">Logo</h1>
+        <ul style="flex-direction: row;height: 90px;align-content: center;">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Travel Packages<i class="fa fa-angle-down""></i></a></li>
+          <li><a href="#">Top Destination<i class="fa fa-angle-down"></i></a></li>
+          <li><a href="#">Travel Attraction<i class="fa fa-angle-down"></i></a></li>
+          <li><a href="#">Travel Agents<i class="fa fa-angle-down"></i></a></li>
+          <li><a href="#">Hotels<i class="fa fa-angle-down"></i></a></li>
+          <li><div class="line"></div></li>
+          <li><a href="#"><i class="fa fa-search"></i></a></li>
+        </ul>
+      </div>
+      <div class="child-container">
+        <div class="content-container">
+          <h1 class="content-title">BALI</h1>
+          <h1 class="content-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h1>
+          <button class="book-button">Book The Trip</button>
         </div>
-        <div class="des-Text">
-          <h1>
-            Lorem Ipsum is simply dummy text of the printing and<br />typesetting
-            industry. Lorem Ipsum has been the industry's<br />standard dummy
-            text ever since the 1500s.
-          </h1>
+        <div class="slider-container">
+          <div class="slider-wrapper">
+            <div class="swiper-slide">
+              <img src="pdIe9hAcaP4.png"/>
+            </div>
+            <div class="slider-slide">
+              <img src="Rectangle 3.png"/>
+            </div>
+            <div class="slider-slide">
+              <img src="Rectangle 3.png"/>
+            </div>
         </div>
-        <div class="book-button">
-          <a>Book The Trip</a>
         </div>
       </div>
-    </header>
+    </div>
+    
   </body>
 </html>
